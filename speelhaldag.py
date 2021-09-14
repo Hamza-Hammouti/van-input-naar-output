@@ -6,8 +6,6 @@ aantalMinuten = int(input("|  Totaal aantal minuten       : "))
 aantalGameseat = int(input("|  Totaal aantal Gameseat personen     : "))
 print("----------------------------------------------------")
 
-
-
 totaalprijs = (prijsTickets * aantalTickets) + ((kostenGameseat * aantalMinuten) * aantalGameseat)
 
 print(totaalprijs)
