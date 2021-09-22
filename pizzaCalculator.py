@@ -2,9 +2,9 @@
 # Opdracht: Pizza Calculator
 
 print("----------------------------------------------------")
-aantalSmall = int(input("| Aantal pizza's small (25cm)    : "))
-aantalMedium = int(input("| Aantal pizza's medium (30cm)   : "))
-aantalLarge = int(input("| Aantal pizza's large (35cm)    : "))
+aantalSmall = int(input("| Aantal pizza's small (25cm - prijs: €9.49)   : "))
+aantalMedium = int(input("| Aantal pizza's medium (30cm - prijs: €11.49)   : "))
+aantalLarge = int(input("| Aantal pizza's large (35cm - prijs: €14.49)    : "))
 print("----------------------------------------------------")
 
 prijsSmall = 9.49
