@@ -11,5 +11,9 @@ prijsSmall = 9.49
 prijsMedium = 11.49
 prijsLarge = 14.49
 
+totaalSmall = aantalSmall * prijsSmall
+totaalMedium = aantalMedium * prijsMedium
+totaalLarge = aantalLarge * prijsLarge
+
 totaalprijs = (aantalSmall * prijsSmall) + (aantalMedium * prijsMedium) + (aantalLarge * prijsLarge)
-print (f"Je hebt {aantalSmall} pizza small besteld, {aantalMedium} pizza medium en {aantalLarge} pizza large. Totaalprijs: €{totaalprijs}")
+print (f"Je hebt {aantalSmall} pizza small besteld (€{totaalSmall}), {aantalMedium} pizza medium (€{totaalMedium}) en {aantalLarge} pizza large (€{totaalLarge}). Totaalprijs: €{totaalprijs}")
